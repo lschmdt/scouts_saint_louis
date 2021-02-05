@@ -285,7 +285,7 @@ address {
     margin-bottom: 10px;
 }
 #banner-home{
-    background-image:url('../img/slider/1.jpg');
+    background-image:url('../img/photos/tente');
     height:350px;
     margin-bottom: 30px;
     padding-top: 120px;
@@ -294,7 +294,7 @@ address {
 @media (min-width: 100px) and (max-width: 800px) { 
  
     #banner-home{
-    background-image:url('../img/slider/1.jpg');
+    background-image:url('../img/photos/scout1.jpeg');
     height:450px;
     margin-bottom: 30px;
     }
@@ -371,13 +371,13 @@ p.blog-text{
 }
 
 .office-logo {
-  width: 100px;
+  width: 200px;
 }
 
 @media (max-width: 768px){ 
     .office-logo{
-      height: 100px;
-      width: 60px;
+      height: 50px;
+      width: 30px;
   }
 }
 
