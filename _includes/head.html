@@ -21,4 +21,18 @@
   <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
   <link rel="stylesheet" href="../assets/css/animate.min.css">
   <link rel="stylesheet" href="../assets/css/style.css">
+
+  <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.5.1/main.css' rel='stylesheet' />
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.5.1/main.js'></script>
+  <script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth'
+      });
+      calendar.render();
+    });
+
+  </script>
 </head>
